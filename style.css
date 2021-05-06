@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 2em;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 1em
+}
+
+.title {
+    margin-top: 2%;
+    display: block;
+}
+
+.about {
+    display: block;
+    font-size: .2em;
+    padding-top: 2em;
+    letter-spacing: .05em;
+}
+
+.wrapper {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.wrapper .carousel {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1em;
+}
+
+.carousel .card {
+    display: flexbox;
+    height: 500px;
+    padding: 2%;
+    line-height: 1.5;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 600;
+    margin: 2%;
+    box-shadow: 4px 4px 15px #222;
+}
+
+.carousel .card-1 {
+    background: #888;
+}
+
+.carousel .card .logo {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    padding: .2em
+}
+
+.carousel .card-2 {
+    background: #888;
+}
+
+.carousel .card-3 {
+    background: #888;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.owl-dot {
+    height: 15px;
+    width: 45px;
+    border-radius: 25px;
+    border: 2px solid #555!important;
+    cursor: pointer;
+    outline: none;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.owl-dot:hover, .owl-dot.active {
+    background-color: #555!important;
+}
+
+.popup {
+    display: none;
+    background: #333;
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    margin: .5em;
+    border-radius: 25px;
+    padding: 2%;
+    line-height: 1.5;
+    box-shadow: 4px 4px 15px #222;
+    color: #999;
+}
+
+.popup h2 {
+    color: #999;
+    padding: 1em;
+}
+
+.popup h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    line-height: 1.2;
+}
+
+.popup p {
+    color: white;
+    font-size: 20px;
+}
+
+.popup input {
+    width: 100%;
+    background: #666;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    font-size: 1.4em;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: 600;
+    border: none;
+}
+
+.popup input:hover {
+    background: #222;
+    color: #999;
+    border: none;
+}
+
+.popup img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.more {
+    padding: 1em;
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600
+}
+
+.more a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cardTitle {
+    margin-left: auto;
+    margin-right: auto;
+}

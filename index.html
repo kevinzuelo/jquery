@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important Internet Organizations</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <header>
+        <h1>Important Internet Organizations</h1>
+    </header>
+    <h3>Select an Organization for more Information</h3>
+    <div class="wrapper">
+        <div class="carousel owl-carousel">
+
+            <div class="card card-1">
+
+                <h2 class="title">IETF</h2>
+
+                <img class="logo" src="img/ieft.png" alt="Internet Engineering Task Force">
+
+                <p class="about">The Internet Engineering Task Force (IETF) is the premier Internet standards body,
+                    developing open standards through open processes.</p>
+            </div>
+
+            <div class="card card-2">
+                <h2 class="title">W3C</h2>
+                <img class="logo" src="img/w3c.png" alt="">
+                <p class="about">The World Wide Web Consortium (W3C) is an international community where Member
+                    organizations, a full-time staff, and the public work together to develop Web standards.</p>
+            </div>
+
+            <div class="card card-3">
+                <h2 class="title">ICANN</h2>
+                <img class="logo" src="img/icann.png" alt="">
+                <p class="about">ICANN is a not-for-profit public-benefit corporation with participants from all
+                    over the world dedicated to keeping the Internet secure, stable and interoperable.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="popup" id="ietf">
+        <h2 class="cardTitle">IETF</h2>
+        <div><img src="img/ieftPop.jpg" alt="Internet Engineering Task Force"></div>
+        <article>
+            <h2 class="cardTitle">Automated network management</h2>
+            <h3>The IETF is working on standards for automated network management which, as the name implies, aims to
+                improve and make more efficient management of networks as they continue to increase in size and
+                complexity.</h3>
+            <p>As the number and diversity of devices that make up the individual networks that comprise the Internet
+                continue to grow, automating routine network management tasks becomes ever-more important. Data
+                modeling-driven management applies the YANG modeling language to formally describe data sources and
+                APIs. Importantly, work within the IETF to produce data models, using its consensus-based approach to
+                develop open standards, helps facilitate cross-industry collaboration and coordination. A key to
+                automated network management is the YANG data modeling language used to model configuration and state
+                data manipulated by the Network Configuration Protocol (NETCONF) and RESTCONF which were developed
+                within the IETF.
+
+                Yet the key measure of success is deployment of the work undertaken within the IETF. Efforts to advance
+                YANG development and the tools needed to support it are also a consistent presence at IETF Hackathons.
+                IETF participants have undertaken education efforts around protocols such as RESTCONF and NETCONF, and
+                helped develop tools, such as the YANG Catalog, to support its work.
+
+                Looking further ahead, the IETF is also standardizing protocols for autonomic networking, which aims to
+                enable networks to be self-managing, including self-configuration, self-optimization, self-healing, and
+                self-protection. If successful, autonomic networking will greatly simplify routine network management
+                tasks. Research on automated network management in the Internet Research Task Force resulted in RFC7575
+                and RFC7576, and led to the creation of the IETF ANIMA working group, which is in the process of
+                defining protocols for autonomic network infrastructure.</p>
+            <aside class="more">Read more at <a href="https://www.ietf.org/">ieft.org</a></aside>
+        </article>
+        <div class="ietfBack">
+            <input type="button" value="BACK">
+        </div>
+    </div>
+    <div class="popup" id="w3c">
+        <h2 class="cardTitle">W3C</h2>
+        <div><img src="img/w3cPop.jpg" alt="Web Accessibility"></div>
+        <article>
+            <h2 class="cardTitle">Making the Web Accessible</h2>
+            <h3>Led by Web inventor and Director Tim Berners-Lee and CEO Jeffrey Jaffe, W3C's mission is to lead the Web
+                to its full potential.</h3>
+            <p>W3C standards define an Open Web Platform for application development that has the unprecedented
+                potential to enable developers to build rich interactive experiences, powered by vast data stores, that
+                are available on any device. Although the boundaries of the platform continue to evolve, industry
+                leaders speak nearly in unison about how HTML5 will be the cornerstone for this platform. But the full
+                strength of the platform relies on many more technologies that W3C and its partners are creating,
+                including CSS, SVG, WOFF, the Semantic Web stack, XML, and a variety of APIs.
+
+                W3C develops these technical specifications and guidelines through a process designed to maximize
+                consensus about the content of a technical report, to ensure high technical and editorial quality, and
+                to earn endorsement by W3C and the broader community.</p>
+            <aside class="more">Read more at <a href="https://www.w3.org/">w3.org</a></aside>
+        </article>
+        <div class="w3cBack">
+            <input type="button" value="BACK">
+        </div>
+    </div>
+    <div class="popup" id="icann">
+        <h2 class="cardTitle">ICANN</h2>
+        <div><img src="img/icannPop.jpg" alt="ICANN around the World"></div>
+        <article>
+            <h2 class="cardTitle">ICANN around the World</h2>
+            <h3>ICANN's mission is to help ensure a stable, secure, and unified global Internet. To reach another person
+                on the Internet, you need to type an address – a name or a number – into your computer or other device.
+                That address must be unique so computers know where to find each other. ICANN helps coordinate and
+                support these unique identifiers across the world.</h3>
+            <p>In more technical terms, the Internet Corporation for Assigned Names and Numbers (ICANN) helps coordinate
+                the Internet Assigned Numbers Authority (IANA) functions, which are key technical services critical to
+                the continued operations of the Internet's underlying address book, the Domain Name System (DNS). The
+                IANA functions include: (1) the coordination of the assignment of technical protocol parameters
+                including the management of the address and routing parameter area (ARPA) top-level domain; (2) the
+                administration of certain responsibilities associated with Internet DNS root zone management such as
+                generic (gTLD) and country code (ccTLD) Top-Level Domains; (3) the allocation of Internet numbering
+                resources; and (4) other services.</p>
+            <aside class="more">Read more at <a href="https://www.icann.org/">icann.org</a></aside>
+        </article>
+        <div class="icannBack">
+            <input type="button" value="BACK">
+        </div>
+    </div>
+    <script>
+        $(".carousel").owlCarousel({
+            nav: true,
+            margin: 30,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: false
+                }
+            }
+        });
+
+        $(".card-1").click(function () {
+            $(".wrapper").fadeOut(1000, 'swing', function () {
+                $('#ietf').fadeIn();
+            });
+        });
+        $(".card-2").click(function () {
+            $(".wrapper").fadeOut(1000, 'swing', function () {
+                $('#w3c').fadeIn();
+            });
+        }); $(".card-3").click(function () {
+            $(".wrapper").fadeOut(1000, 'swing', function () {
+                $('#icann').fadeIn();
+            });
+        });
+        $(".ietfBack").click(function () {
+            $("#ietf").fadeOut(1000, 'swing', function () {
+                $('.wrapper').fadeIn();
+            });
+        });
+        $(".icannBack").click(function () {
+            $("#icann").fadeOut(1000, 'swing', function () {
+                $('.wrapper').fadeIn();
+            });
+        });
+        $(".w3cBack").click(function () {
+            $("#w3c").fadeOut(1000, 'swing', function () {
+                $('.wrapper').fadeIn();
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
